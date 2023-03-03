@@ -4,6 +4,19 @@
         max-width: 766px;
     }
 
+ /*======================ORDER========================*/
+
+    .order {
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+
+    .order-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 40px;
+    }
+
 /*======================FEATURES========================*/
 
     .features-list {
@@ -38,7 +51,6 @@
 
     .customers-list {
         column-gap: 24px;
-        justify-content: center;
     }
     .customers-item {
         width: 168px;

@@ -4,6 +4,18 @@
         max-width: 1158px;
     }
 
+/*======================ORDER========================*/
+
+    .order {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .order-title {
+        margin-bottom: 48px;
+    }
+
+
 /*======================FEATURES========================*/
 
     .features {
