@@ -220,46 +220,43 @@ button{
 /*======================FEATURES========================*/
 
 .features {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 72px;
 }
 
 .features-icon-link {
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    background-color: #F4F4FD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
+    display: none;
 }
 
 .features-icon {
-    width: 64px;
-    height: 64px;
+   display: none;
 }
 
 .features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 
 .features-description {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    max-width: 264px;
-}
+    width: 100%;
+} 
 
 /*======================ACTIVITY========================*/
 

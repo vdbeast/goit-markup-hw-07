@@ -2,20 +2,36 @@
 
     .container {
         max-width: 766px;
-}
+    }
 
-/*======================TEAM========================*/
+/*======================FEATURES========================*/
+
+    .features-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+    }
+
+    .features-subtitle {
+        text-align: unset;
+    }
+
+    .features-description {
+        max-width: 356px;
+    }
+
+    /*======================TEAM========================*/
     .team {
         padding-top: 96px;
         padding-bottom: 104px;
     }
-
+    
     .team-list {
-        display: flex;
+        /* display: flex; */
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 64px;
         column-gap: 24px;
     }
-
 }
