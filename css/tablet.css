@@ -1,0 +1,21 @@
+@media screen and (min-width:788px) {
+
+    .container {
+        max-width: 766px;
+}
+
+/*======================TEAM========================*/
+    .team {
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+
+    .team-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+
+}

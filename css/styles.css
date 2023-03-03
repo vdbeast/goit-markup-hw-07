@@ -32,6 +32,7 @@ ul {
 
 img{
     display: block;
+    height: auto;
 }
 
 button{
@@ -40,7 +41,7 @@ button{
 
 .container {
     width: 100%;
-    max-width: 1158px;
+    max-width: 426px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -153,7 +154,6 @@ button{
     display: flex;
 }
 
-.header-contact-item {}
 
 .header-contact-link {
     font-style: normal;
@@ -224,14 +224,10 @@ button{
     padding-bottom: 120px;
 }
 
-.features-title {}
-
 .features-list {
     display: flex;
     justify-content: space-between;
 }
-
-.features-item {}
 
 .features-icon-link {
     width: 264px;
@@ -267,35 +263,16 @@ button{
 
 /*======================ACTIVITY========================*/
 
+
 .activity {
-    padding-bottom: 120px;
+    display: none;
 }
-
-.activity-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    margin-bottom: 72px;
-}
-
-.activity-list {
-    display: flex;
-    gap: 24px;
-}
-
-.activity-item {
-    width: calc(100%-48px)/3;
-}
-
-.activity-img {}
-
 
 /*======================TEAM========================*/
 
 .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 128px;
     background-color: #F4F4FD;
 }
 
@@ -309,15 +286,16 @@ button{
 
 .team-list {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 
 .team-item {
-    width: calc(100%-72px)/4; 
+    width: 264px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-.team-img {}
 
 .team-wrap {
     padding: 32px 16px;
