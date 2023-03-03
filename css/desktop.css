@@ -33,15 +33,13 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.02em;
-        margin-bottom: 8px;
     }
 
     .features-description {
         max-width: 264px;
         font-weight: 400;
     }
-}
+
 
 /*======================ACTIVITY========================*/
     .activity {
@@ -71,3 +69,11 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
+
+/*======================CUSTOMERS========================*/
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}    

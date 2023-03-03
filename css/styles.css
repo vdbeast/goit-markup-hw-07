@@ -354,8 +354,8 @@ button{
 
 
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-title {
@@ -368,16 +368,14 @@ button{
 
 .customers-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 72px;
 }
 
 .customers-item {
-    width: 168px;
+    width: 190px;
     height: 88px;
-}
-
-.customers-item {
-    width: calc(100%-120px)/6;
 }
 
 .customers-link {
@@ -413,14 +411,11 @@ button{
 
 /*======================SPECIALITY========================*/
 
-.page-2 {}
 
 .page-2-container{
     padding-top: 96px;
     padding-bottom: 120px;
 }
-
-.speciality {}
 
 .speciality-filter {
     display: flex;

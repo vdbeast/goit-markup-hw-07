@@ -21,17 +21,29 @@
         max-width: 356px;
     }
 
-    /*======================TEAM========================*/
+/*======================TEAM========================*/
     .team {
         padding-top: 96px;
         padding-bottom: 104px;
     }
     
     .team-list {
-        /* display: flex; */
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 64px;
         column-gap: 24px;
     }
+
+/*======================CUSTOMERS========================*/
+
+    .customers-list {
+        column-gap: 24px;
+        justify-content: center;
+    }
+    .customers-item {
+        width: 168px;
+        height: 88px;
+    }
+       
+    
 }
