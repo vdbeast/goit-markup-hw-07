@@ -41,7 +41,6 @@ button{
 
 .container {
     width: 100%;
-    max-width: 426px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -49,11 +48,13 @@ button{
 
 .footer-container {
     width: 100%;
-    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 72px;
 }
 
 .visually-hidden {
@@ -106,8 +107,6 @@ button{
 .header-list {
     display: flex;
 }
-
-.list {}
 
 .header-item:not(:last-child) {
     margin-right:40px;
@@ -476,7 +475,6 @@ button{
     overflow: hidden;
 }
 
-.speciality-img {}
 
 .overlay {
     position: absolute;
@@ -529,8 +527,8 @@ button{
 /*======================FOOTER========================*/
 
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     background-color:var(--background-color-navy);
 }
 
@@ -540,6 +538,7 @@ button{
     font-size: 18px;
     line-height: 1.33;
     display: flex;
+    justify-content: center;
     color: #F4F4FD;
     align-items: center;
     letter-spacing: 0.03em;
@@ -552,8 +551,8 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    max-width: 264px;
-    margin-right: 120px;
+    max-width: 268px;
+    margin: 0 auto;
 }
 
 .footer-soc-subtitle {
@@ -563,6 +562,7 @@ button{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-soc-list {
@@ -596,7 +596,7 @@ button{
 }
 
 .footer-input-column {
-    margin-left: auto;
+    width: 100%;
 }
 
 .footer-input-subtitle {
@@ -606,15 +606,18 @@ button{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-input-wrap {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
 .footer-input {
-    width: 264px;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
@@ -634,6 +637,8 @@ button{
 }
 
 .footer-input-btn {
+    width: 165px;
+    height: 40px;
     padding: 8px 24px;
     background-color: #4D5AE5;
     border-radius: 4px;

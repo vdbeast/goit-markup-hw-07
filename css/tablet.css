@@ -1,7 +1,15 @@
-@media screen and (min-width:788px) {
+@media screen and (min-width:768px) {
 
     .container {
         max-width: 766px;
+    }
+
+    .footer-container {
+        max-width: 552px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        align-items: unset;
     }
 
  /*======================ORDER========================*/
@@ -57,5 +65,33 @@
         height: 88px;
     }
        
+/*======================FOOTER========================*/
+
+
+    .footer-logo {
+        justify-content: start;
+    }
+
+    .footer-description {
+        max-width: 264px;
+    }
     
+    .footer-soc-subtitle {
+        text-align: unset;
+    }
+
+    .footer-input-subtitle{
+        text-align: unset;
+    }
+    
+    .footer-input-wrap {
+        flex-direction: row;
+        align-items: unset;
+        gap: 24px;
+    }
+
+
+    .footer-input {
+        width: 264px;
+    }
 }

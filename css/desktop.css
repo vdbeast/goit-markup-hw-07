@@ -4,6 +4,12 @@
         max-width: 1158px;
     }
 
+    .footer-container {
+        max-width: 1158px;
+        flex-wrap: unset;
+        column-gap: unset;
+    }
+
 /*======================ORDER========================*/
 
     .order {
@@ -88,4 +94,25 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
+
+
+
+/*======================FOOTER========================*/
+
+ 
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-description {
+        margin-right: 120px;
+    }
+
+
+    .footer-input-column {
+        margin-left: auto;
+        width: unset;
+    }
+
 }    
