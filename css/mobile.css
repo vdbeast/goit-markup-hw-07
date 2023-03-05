@@ -6,4 +6,14 @@
     .footer-container {
         max-width: 426px;
     }
+
+/*======================BACKDROP========================*/
+
+    .modal {
+        width: 392px;
+    }
+
+    .modal-input {
+        width: 360px;
+    }
 }

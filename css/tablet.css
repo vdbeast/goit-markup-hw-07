@@ -94,4 +94,12 @@
     .footer-input {
         width: 264px;
     }
+
+
+/*======================BACKDROP========================*/
+
+    .modal {
+        width: 408px;
+        padding: 24px;
+    }
 }
