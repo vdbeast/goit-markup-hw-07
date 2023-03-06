@@ -10,6 +10,13 @@
         column-gap: unset;
     }
 
+    .page-2-container {
+        max-width: 1158px;
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+/*======================HEADER========================*/
 
     .header-contact-list {
         flex-direction: row;
@@ -106,6 +113,18 @@
     }
 
 
+/*======================PORTFOLIO========================*/
+
+/*======================SPECIALITY========================*/
+
+.speciality-list {
+    row-gap: 48px;
+}
+
+.speciality-item {
+    width: (100%-48px)/3;
+}
+
 
 /*======================FOOTER========================*/
 
@@ -125,4 +144,9 @@
         width: unset;
     }
 
+
+
+        .speciality-item {
+            width: calc(100%-24px)/2;
+        }
 }    

@@ -12,6 +12,12 @@
         align-items: unset;
     }
 
+    .page-2-container {
+        max-width: 766px;
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
 /*======================HEADER========================*/
 
 .header {
@@ -83,14 +89,6 @@
     display: none;
 }
 
-
-
-
-
-
-
-
-
  /*======================ORDER========================*/
 
     .order {
@@ -143,6 +141,25 @@
         width: 168px;
         height: 88px;
     }
+
+/*======================PORTFOLIO========================*/
+
+/*======================SPECIALITY========================*/
+
+.speciality-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.speciality-list {
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.speciality-item {
+   width: 356px;
+}
        
 /*======================FOOTER========================*/
 

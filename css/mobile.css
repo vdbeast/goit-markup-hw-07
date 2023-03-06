@@ -7,6 +7,12 @@
         max-width: 426px;
     }
 
+    .page-2-container {
+        max-width: 396px;
+    }
+
+/*======================HEADER========================*/
+
     .mob-menu-tel {
         font-weight: 700;
         font-size: 36px;
