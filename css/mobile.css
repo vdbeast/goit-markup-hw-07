@@ -7,6 +7,16 @@
         max-width: 426px;
     }
 
+    .mob-menu-tel {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    }
+
+    .mob-menu-soc-list {
+        gap: 56px;
+    }
+
 /*======================ORDER========================*/
 
     .order {
@@ -22,5 +32,10 @@
 
     .modal-input {
         width: 360px;
+    }
+
+    .mob-container {
+        width: unset;
+        max-width: 428px;
     }
 }

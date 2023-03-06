@@ -10,6 +10,16 @@
         column-gap: unset;
     }
 
+
+    .header-contact-list {
+        flex-direction: row;
+    }
+
+    .current::after{
+        bottom: -27px;
+    }
+
+
 /*======================ORDER========================*/
 
     .order {
