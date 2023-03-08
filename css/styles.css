@@ -248,6 +248,7 @@ button{
     max-width: 427px;
     padding-top: 112px;
     padding-bottom: 112px;
+    margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -364,7 +365,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 72px;
 }
 
 .team-item {

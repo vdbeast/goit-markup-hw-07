@@ -72,8 +72,9 @@
 
 
 .header-contact-link {
-    font-size: 16px;
-    line-height: 1.5;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #434455;
     margin-left: 40px;
